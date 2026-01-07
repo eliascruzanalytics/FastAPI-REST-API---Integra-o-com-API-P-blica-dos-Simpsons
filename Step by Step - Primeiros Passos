@@ -2,3 +2,61 @@
 
 ```git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio```
+
+
+Criar e Ativar o Ambiente Virtual (Opcional, mas recomendado)
+python -m venv venv
+venv\Scripts\activate
+
+Linux / Mac
+python3 -m venv venv
+source venv/bin/activate
+
+Instalar as Dependências
+
+pip install -r requirements.txt
+
+Isso instalará:
+
+- FastAPI
+- Uvicorn
+- Requests
+
+Entender o Arquivo Principal
+
+O arquivo app.py é o ponto de entrada da aplicação, responsável por:
+
+- Criar a instância do FastAPI
+- Registrar todas as rotas da API
+
+Iniciar o Servidor Local
+uvicorn app:app --reload
+O parâmetro --reload reinicia o servidor automaticamente a cada alteração no código.
+
+Acessar a API
+API rodando: http://127.0.0.1:8000
+Documentação interativa (Swagger): http://127.0.0.1:8000/docs
+
+Testar os Endpoints pelo Swagger
+
+No Swagger você pode:
+
+- Escolher um endpoint (/characters, /episodes, /locations)
+- Informar parâmetros (limit, name)
+- Clicar em Try it out
+- Executar a requisição e ver a resposta
+
+Próximos passos:
+
+- Criar novos endpoints
+- Adicionar métodos POST, PUT e DELETE
+- Implementar autenticação
+- Preparar o projeto para deploy
+
+
+
+
+
+
+
+
