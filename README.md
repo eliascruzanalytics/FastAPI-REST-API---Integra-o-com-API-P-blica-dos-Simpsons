@@ -1,3 +1,6 @@
+<img width="983" height="333" alt="image" src="https://github.com/user-attachments/assets/2ad95540-291b-4a9d-96ab-2db7c6f5b6a5" />
+
+
 # FastAPI REST API — Integração com The Simpsons API
 
 API REST desenvolvida em Python com FastAPI, consumindo dados de uma API pública dos Simpsons.
