@@ -20,6 +20,8 @@ Conceitos Abordados
 - Integração com API externa
 - Documentação automática (Swagger / OpenAPI)
 
+
+Estrutura das pastas no projeto
 ```API_PYTHON/
 ├── app.py
 ├── requirements.txt
