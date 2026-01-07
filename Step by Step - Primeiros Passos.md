@@ -1,4 +1,6 @@
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/119c7369-4309-4521-956c-db10f82ea169" />
+<img width="506" height="448" alt="image" src="https://github.com/user-attachments/assets/233eda80-90c8-4f8b-8706-368cfe5ccc50" />
+
+
 
 ## Clonar o Repositório
 
